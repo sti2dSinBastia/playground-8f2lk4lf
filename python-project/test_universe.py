@@ -55,4 +55,4 @@ def test_est_majeur():
 
 
 if __name__ == "__main__":
-    test_count_all_stars()
+    test_est_majeur()
