@@ -29,10 +29,12 @@ def fail():
 
 def test_est_majeur():
     try:
-        result = est_majeur(1)
-        assert result == False, "Running est_majeur(1))... Expected False, got {}".format(result)
-        result = est_majeur(20)
-        assert result == True, "Running est_majeur(20))... Expected True, got {}".format(result)
+        result = est_majeur(17)
+        assert result == False, "Running est_majeur(17))... Expected False, got {}".format(result)
+        result = est_majeur(18)
+        assert result == True, "Running est_majeur(18))... Expected True, got {}".format(result)
+        result = est_majeur(19)
+        assert result == True, "Running est_majeur(19))... Expected True, got {}".format(result)
         success()
 
         if sum_builtin_used:
