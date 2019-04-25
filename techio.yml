@@ -1,4 +1,10 @@
-title: Simple Python Template
+title: Python Project
 plan:
-- title: Python Snippet
-  statement: statement.md
+- title: Les conditions
+  statement: markdowns/conditions.md
+projects:
+  python:
+    root: /python-project
+    runner:
+      name: python
+      version: '3'
